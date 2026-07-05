@@ -1,0 +1,6 @@
+{
+  "name": "BrightHub Academy",
+  "description": "BrightHub Academy - Quality coaching institute for Classes 1 to 10 and Spoken English in a modern, premium, responsive digital experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

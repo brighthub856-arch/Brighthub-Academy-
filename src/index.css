@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  /* Academy Brand Palette: Deep Blue & Lustrous Gold */
+  --color-brand-blue-50: #f0f4ff;
+  --color-brand-blue-100: #e1ebff;
+  --color-brand-blue-200: #cddcff;
+  --color-brand-blue-300: #aac1ff;
+  --color-brand-blue-400: #809eff;
+  --color-brand-blue-500: #1d4ed8;
+  --color-brand-blue-600: #1e40af;
+  --color-brand-blue-700: #1e3a8a;
+  --color-brand-blue-800: #172554;
+  --color-brand-blue-950: #0a0f29;
+  
+  --color-brand-gold-50: #fdfaf2;
+  --color-brand-gold-100: #faf1db;
+  --color-brand-gold-200: #f3dfb0;
+  --color-brand-gold-300: #ecc77d;
+  --color-brand-gold-400: #e2a84a;
+  --color-brand-gold-500: #d48c27;
+  --color-brand-gold-600: #b36b1d;
+  --color-brand-gold-700: #904d19;
+  --color-brand-gold-800: #743c17;
+  --color-brand-gold-900: #603116;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #fcfcfd;
+    color: #1a1e26;
+  }
+}
